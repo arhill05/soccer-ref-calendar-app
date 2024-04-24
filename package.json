@@ -1,0 +1,17 @@
+{
+  "name": "ref-calendar-integration",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@google-cloud/local-auth": "2.1.0",
+    "chrono-node": "^2.7.5",
+    "googleapis": "105",
+    "linkedom": "^0.16.11"
+  }
+}
