@@ -89,9 +89,9 @@ const createAssignmentsOnCalendar = (
     const endDate = chrono.parseDate(dateTimeStr);
     endDate?.setHours(endDate.getHours() + 1);
     const event = {
-      summary: assignment.assignmentDescription,
+      summary: "Drew - Referee",
       location: assignment.assignmentLocation,
-      description: assignment.assignmentRole,
+      description: `${assignment.assignmentRole}\n${assignment.assignmentDescription}`,
       start: {
         dateTime: startDate,
         timeZone: "America/New_York",
